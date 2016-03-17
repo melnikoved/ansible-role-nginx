@@ -1,0 +1,7 @@
+- name: Install Nginx
+  yum:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+  - epel-release
+  - nginx

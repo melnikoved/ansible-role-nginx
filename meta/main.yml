@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Eduard Melnikov
+  description: Install nginx to Centos6
+  license: BSD
+  min_ansible_version: 1.4
+  galaxy_tags:
+    - web
+
+  platforms:
+  - name: EL
+    versions:
+    - 6
+dependencies: []
